@@ -51,5 +51,6 @@
 <img width="556" height="290" alt="image" src="https://github.com/user-attachments/assets/64ad3e8c-ba6e-4f98-88bd-1c9c1c4d2216" />
 
 ## ドキュメント（製作途中）
+リポジトリ内に以下の設計資料（またはドキュメント）を格納しております。
 - **[要件定義書【お天気痛予報・管理アプリ】_松本.docx](https://github.com/user-attachments/files/33133534/_.docx)
 - **[基本設計書【お天気痛予測・管理アプリ】_松本_第2版.docx](https://github.com/user-attachments/files/33133529/_._.2.docx)
