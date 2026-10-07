@@ -37,12 +37,12 @@
 
 ## データベース設計（テーブル概要）
 
-1.1	users（ユーザー）：アカウント情報を保持する。
-1.2	pain_records（症状履歴）：記録された天気痛記録の過去1年分の履歴を保持する。
-1.3	symptom（症状マスター）：代表的な天気痛の症状を保持する。
-1.4	user_thresholds（ユーザー別閾値）：ユーザー別の閾値を管理する。
-1.5	weather_triggers（閾値計算用）：ユーザー別の閾値を算出するため、症状が登録された直近3回までの気圧・気温・湿度変化の閾値を保持し、ユーザー別閾値に反映する。
-1.6	weather_snapshots（記録時の天気情報）：記録時の天候・気圧・気圧・気温・湿度と、そこから24時間の間での気圧・気温・湿度変化の最大値を保持する
+- **users（ユーザー）：アカウント情報を保持する。
+- **pain_records（症状履歴）：記録された天気痛記録の過去1年分の履歴を保持する。
+- **symptom（症状マスター）：代表的な天気痛の症状を保持する。
+- **uuser_thresholds（ユーザー別閾値）：ユーザー別の閾値を管理する。
+- **uweather_triggers（閾値計算用）：ユーザー別の閾値を算出するため、症状が登録された直近3回までの気圧・気温・湿度変化の閾値を保持し、ユーザー別閾値に反映する。
+- **uweather_snapshots（記録時の天気情報）：記録時の天候・気圧・気圧・気温・湿度と、そこから24時間の間での気圧・気温・湿度変化の最大値を保持する
 
 ---
 
@@ -51,5 +51,5 @@
 <img width="556" height="290" alt="image" src="https://github.com/user-attachments/assets/64ad3e8c-ba6e-4f98-88bd-1c9c1c4d2216" />
 
 ## ドキュメント（製作途中）
-[要件定義書【お天気痛予報・管理アプリ】_松本.docx](https://github.com/user-attachments/files/33133534/_.docx)
-[基本設計書【お天気痛予測・管理アプリ】_松本_第2版.docx](https://github.com/user-attachments/files/33133529/_._.2.docx)
+- **[要件定義書【お天気痛予報・管理アプリ】_松本.docx](https://github.com/user-attachments/files/33133534/_.docx)
+- **[基本設計書【お天気痛予測・管理アプリ】_松本_第2版.docx](https://github.com/user-attachments/files/33133529/_._.2.docx)
